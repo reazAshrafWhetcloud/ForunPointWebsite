@@ -18,18 +18,32 @@ const PictureOne = () => {
           </Box>
           <Box className="footer-app-sec">
             <Box className="badge-mr-r">
-              <img
-                width="115"
-                src="images/badge/play-store.png"
-                alt="play store icon"
-              />
+              <a
+                className="li-c"
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.user"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="115"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
             </Box>
             <Box className="badge-mr-l">
-              <img
-                width="115"
-                src="images/badge/app-store.png"
-                alt="app store icon"
-              />
+              <a
+                className="li-c"
+                href="https://apps.apple.com/us/app/forunpoint/id1630196197"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="115"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
             </Box>
           </Box>
         </Box>

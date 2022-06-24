@@ -66,18 +66,32 @@ const Vision = () => {
           </Typography>
           <Box className="footer-app-sec">
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/play-store.png"
-                alt="play store icon"
-              />
+              <a
+                className="li-c"
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.driver"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
             </Box>
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/app-store.png"
-                alt="app store icon"
-              />
+              <a
+                className="li-c"
+                href="https://apps.apple.com/us/app/forunpoint-driver/id1630196763"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
             </Box>
           </Box>
         </Box>
@@ -90,18 +104,32 @@ const Vision = () => {
           </Typography>
           <Box className="footer-app-sec">
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/play-store.png"
-                alt="play store icon"
-              />
+              <a
+                className="li-c"
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.user"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
             </Box>
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/app-store.png"
-                alt="app store icon"
-              />
+              <a
+                className="li-c"
+                href="https://apps.apple.com/us/app/forunpoint/id1630196197"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
             </Box>
           </Box>
         </Box>
