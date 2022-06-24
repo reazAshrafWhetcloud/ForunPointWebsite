@@ -5,7 +5,7 @@ import BreadCrumb from "../muic/BreadCrumb";
 const TermAndConditionPage = () => {
   const breadCrumb = [
     {
-      text: "Home",
+      text: "home",
       url: "/",
     },
     {
