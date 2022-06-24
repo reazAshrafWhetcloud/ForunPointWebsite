@@ -61,18 +61,30 @@ const DriverPage = () => {
           </Typography>
           <Box className="footer-app-sec">
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/play-store.png"
-                alt="play store icon"
-              />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.driver"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
             </Box>
             <Box className="footer-download-box">
-              <img
-                width="110"
-                src="images/badge/app-store.png"
-                alt="app store icon"
-              />
+              <a
+                href="https://apps.apple.com/us/app/forunpoint-driver/id1630196763"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
             </Box>
           </Box>
         </Box>

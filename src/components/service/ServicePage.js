@@ -127,8 +127,8 @@ const ServicePage = () => {
           <Typography className="global-font-family global-text about-text-set">
             Our experienced drivers will use their skill and care to deliver
             flowers to you- or to someone you want to show you care. Our
-            background and knowledge of Frisco will get your flowers to their
-            destination in no time!
+            background and knowledge of your community will get your flowers to
+            their destination in no time!
           </Typography>
         </Box>
         <Box className="about-two-box ">

@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import ChatIcon from "@mui/icons-material/Chat";
 import { useNavigate } from "react-router-dom";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -107,19 +107,71 @@ const Footer = () => {
           </ul>
         </Box>
         <Box className="footer-app">
-          <Box className="footer-download-box">
-            <img
-              width="110"
-              src="images/badge/play-store.png"
-              alt="play store icon"
-            />
+          <Box>
+            <Typography className="text-color global-text global-font-family ms-1">
+              Driver App
+            </Typography>
+            <Box className="footer-download-box mb-2">
+              <a
+                className="li-c"
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.driver"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
+            </Box>
+            <Box className="footer-download-box">
+              <a
+                className="li-c"
+                href="https://apps.apple.com/us/app/forunpoint-driver/id1630196763"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
+            </Box>
           </Box>
-          <Box className="footer-download-box">
-            <img
-              width="110"
-              src="images/badge/app-store.png"
-              alt="app store icon"
-            />
+          <Box>
+            <Typography className="text-color global-text global-font-family ms-1">
+              User App
+            </Typography>
+            <Box className="footer-download-box mb-2">
+              <a
+                className="li-c"
+                href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.user"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/play-store.png"
+                  alt="play store icon"
+                />
+              </a>
+            </Box>
+            <Box className="footer-download-box">
+              <a
+                className="li-c"
+                href="https://apps.apple.com/us/app/forunpoint/id1630196197"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  width="110"
+                  src="images/badge/app-store.png"
+                  alt="app store icon"
+                />
+              </a>
+            </Box>
           </Box>
         </Box>
       </Box>
