@@ -113,7 +113,7 @@ const AboutUsPage = () => {
             style={{ fontWeight: "bold" }}
             className="global-font-family global-text about-text-set"
           >
-            We’re providing the world with reliable and affordable solutions to
+            We’re providing communities with reliable and affordable solutions to
             life with ride and delivery services.
           </Typography>
 

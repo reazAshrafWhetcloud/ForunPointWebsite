@@ -30,7 +30,7 @@ const InvestorRelationPage = () => {
             Investors
           </Typography>
           <Typography className="global-font-family typo-investor global-text about-text-set">
-            Our mission is to provide the world with reliable and affordable
+            Our mission is to provide communities with reliable and affordable
             delivery solutions through ridesharing and delivery services. This
             model and the technology we’ve developed are scalable and can be
             implemented across the United States and worldwide. We’re actively
