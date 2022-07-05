@@ -9,7 +9,6 @@ const useStyles = makeStyles({
     justifyContent: "space-between",
     borderTop: "1px solid #d8d8de",
     borderBottom: "1px solid #d8d8de",
-    margin: "3px 0",
     padding: "0 25px",
   },
 });
@@ -26,7 +25,7 @@ const NavBar = () => {
     <>
       <Box className={classes.navbarU}>
         <Box onClick={goto} className="navbar-logo">
-          <img width="250" src="./images/logo.svg" alt="Forun Point logo" />
+          <img width='200' src="./images/webLogo-01.png" alt="Forun Point logo" />
         </Box>
         <Box className="nav-btn-flex">
           <Box className="nav-btn global-text global-font-family font-bold">

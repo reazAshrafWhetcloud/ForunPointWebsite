@@ -73,7 +73,7 @@ const Vision = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/play-store.png"
                   alt="play store icon"
                 />
@@ -87,7 +87,7 @@ const Vision = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/app-store.png"
                   alt="app store icon"
                 />
@@ -111,7 +111,7 @@ const Vision = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/play-store.png"
                   alt="play store icon"
                 />
@@ -125,7 +125,7 @@ const Vision = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/app-store.png"
                   alt="app store icon"
                 />

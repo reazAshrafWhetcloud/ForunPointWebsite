@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import ChatIcon from "@mui/icons-material/Chat";
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { useNavigate } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -14,10 +14,11 @@ const Footer = () => {
       <Box className="box-footer">
         <Box>
           <Box onClick={goto} className="footer-logo">
-            <img src="./images/logo.svg" alt="Forun Point logo" />
+            <img src="./images/webLogo-01.png" alt="Forun Point logo" />
           </Box>
           <Box className="address-box mr-bottom">
-            <ChatIcon />
+            
+            <MailOutlineIcon/>
             <Typography className="footer-address  text-color global-font-family">
               info@forunpoint.com
             </Typography>
@@ -108,10 +109,10 @@ const Footer = () => {
         </Box>
         <Box className="footer-app">
           <Box>
-            <Typography className="text-color global-text global-font-family ms-1">
+            <Typography className="text-color global-text global-font-family mb-3 ms-1 mt-2" style={{textAlign:'center'}}>
               Driver App
             </Typography>
-            <Box className="footer-download-box mb-2">
+            <Box className="footer-download-box mb-4">
               <a
                 className="li-c"
                 href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.driver"
@@ -119,7 +120,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/play-store.png"
                   alt="play store icon"
                 />
@@ -133,7 +134,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/app-store.png"
                   alt="app store icon"
                 />
@@ -141,10 +142,10 @@ const Footer = () => {
             </Box>
           </Box>
           <Box>
-            <Typography className="text-color global-text global-font-family ms-1">
+            <Typography className="text-color global-text global-font-family mb-3 ms-1 mt-2" style={{textAlign:'center'}}>
               User App
             </Typography>
-            <Box className="footer-download-box mb-2">
+            <Box className="footer-download-box mb-4">
               <a
                 className="li-c"
                 href="https://play.google.com/store/apps/details?id=com.whetcloud.forunpoint.user"
@@ -152,7 +153,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/play-store.png"
                   alt="play store icon"
                 />
@@ -166,7 +167,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <img
-                  width="110"
+                  width="150"
                   src="images/badge/app-store.png"
                   alt="app store icon"
                 />
@@ -175,33 +176,33 @@ const Footer = () => {
           </Box>
         </Box>
       </Box>
-      <Box className="footer-bottom">
+      
+      <Box className="footer-red">
+        <Box>
+          <Typography className="global-text global-font-family">
+            @ 2022 ForunPoint. All Right Reserved
+          </Typography>
+          <Typography className="global-text global-font-family">
+            Powered By DevsARC
+          </Typography>
+        </Box>
+
+        <Box className="footer-bottom">
         <Box>
           <Typography className="text-color global-text global-font-family">
-            <Link className="li-c" to="/privacy-policy">
+            <Link className="li-c-w" to="/privacy-policy" >
               Privacy
             </Link>
           </Typography>
         </Box>
         <Box>
           <Typography className="text-color global-text global-font-family">
-            <Link className="li-c" to="/term-and-condition">
+            <Link className="li-c-w" to="/term-and-condition" >
               Terms and Condition
             </Link>
           </Typography>
         </Box>
       </Box>
-      <Box className="footer-red">
-        <Box>
-          <Typography className="global-text global-font-family">
-            @ 2022 ForunPoint. All Right Reserved
-          </Typography>
-        </Box>
-        <Box>
-          <Typography className="global-text global-font-family">
-            Powered By Whetcloud
-          </Typography>
-        </Box>
       </Box>
     </Box>
   );
