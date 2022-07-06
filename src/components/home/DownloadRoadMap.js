@@ -4,17 +4,24 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import PaymentIcon from "@mui/icons-material/Payment";
+import WOW from 'wowjs';
+import { useEffect } from 'react';
 
 const DownloadRoadMap = () => {
+
+  useEffect(() => {
+    new WOW.WOW().init();
+  }, []);
+
   return (
     <Box className="road-map-main">
       <Box>
-        <Typography className="global-large-heading global-font-family road-center">
+        <Typography className="global-large-heading global-font-family road-center wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
           Get everything you need
         </Typography>
       </Box>
       <Box>
-        <Typography className="global-text global-font-family road-center font-bold">
+        <Typography className="global-text global-font-family road-center">
           Four easy steps:
         </Typography>
       </Box>
@@ -28,7 +35,7 @@ const DownloadRoadMap = () => {
               <Box className="road-icon-size">
                 <DownloadForOfflineIcon className="step-icon" />
               </Box>
-              <Typography className="road-text-down global-font-family global-text font-bold">
+              <Typography className="road-text-down global-font-family global-text">
                 Download app
               </Typography>
             </Box>
@@ -41,7 +48,7 @@ const DownloadRoadMap = () => {
               <Box className="road-icon-size">
                 <DirectionsIcon className="step-icon" />
               </Box>
-              <Typography className="road-text-down global-font-family global-text font-bold">
+              <Typography className="road-text-down global-font-family global-text">
                 Select destination
               </Typography>
             </Box>
@@ -54,7 +61,7 @@ const DownloadRoadMap = () => {
               <Box className="road-icon-size">
                 <DirectionsCarIcon className="step-icon" />
               </Box>
-              <Typography className="road-text-down global-font-family global-text font-bold">
+              <Typography className="road-text-down global-font-family global-text">
                 Choose ride type
               </Typography>
             </Box>
@@ -67,7 +74,7 @@ const DownloadRoadMap = () => {
               <Box className="road-icon-size">
                 <PaymentIcon className="step-icon" />
               </Box>
-              <Typography className="road-text-down global-font-family global-text font-bold">
+              <Typography className="road-text-down global-font-family global-text">
                 Submit payment
               </Typography>
             </Box>

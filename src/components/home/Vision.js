@@ -29,13 +29,13 @@ const Vision = () => {
           </Typography>
         </Box>
       </Box>
-      <Box className="vision-sub-flex vision-border-top">
-        <Box className="vision-box-margin">
+      <Box className="main-flex vision-border-top">
+        <Box className="main-sub vision-box-margin" id="unique">
           <Typography className="typo-vision global-large-heading global-font-family">
             Safety is our top priority for riders and drivers
           </Typography>
         </Box>
-        <Box className="vision-box-margin">
+        <Box className="main-sub vision-box-margin">
           <Box className="vision-pic4-box">
             <img src="./images/picture3.jpg" alt="vision pic-3" />
           </Box>

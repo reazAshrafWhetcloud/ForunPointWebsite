@@ -1,7 +1,5 @@
-import { ClassNames } from "@emotion/react";
-import { Typography } from "@mui/material";
-import { Box } from "@mui/system";
 import { Fragment } from "react";
+
 const Icons = () => {
   const iconState = [
     {
@@ -35,38 +33,14 @@ const Icons = () => {
   ];
   return (
     <Fragment>
-   {/* <Box>
-      <br />
-      <Typography className="global-font-family global-large-heading icon-head">
-        One app for all your needs
-      </Typography>
-      <br />
-      <Box className="icons-main-box">
-        {iconState.map((val, ind) => {
-          return (
-            <Box className="icons-box icon-tile" key={ind}>
-              <Box className="icons-box-service">
-                <img src={val.icon} alt={`icon-${ind}`} />
-              </Box>
-              <Box>
-                <Typography className="typo-icons global-font-family font-bold">
-                  {val.text}
-                </Typography>
-              </Box>
-            </Box>
-          );
-        })}
-      </Box>
-      </Box>*/}
-
       <div className="Icons">
         <div className="container">
-          <div class="row">
+          <div className="row">
             <h2>One app for all your needs</h2>
           {
-             iconState.map ((e)=>{
+             iconState.map((e, index)=>{
               return (
-                <div className="col-lg-3 col-md-6 col-sm-12">
+                <div className="col-lg-3 col-md-6 col-sm-12" key={'icons' + index}>
                 <div className="card" >
                   
                   <img style={{maxWidth:'150px',margin:'0 auto'}} src={e.icon} alt='' />

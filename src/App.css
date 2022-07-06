@@ -711,6 +711,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.footer-red a{
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 605px){
   .footer-red{
    justify-content: center;
@@ -719,15 +723,15 @@
 .vision-bg {
   margin: 0px 2%;
 }
-
+/**/
 .vision-box-margin {
   margin: 0 15px;
 }
 
 .vision-sub-flex {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .vision-img-box-real {
@@ -758,17 +762,42 @@
 .typo-vision {
   text-align: center;
 }
+.main-flex{
+  width: 100%;
+  display: flex;
+  
+}
+@media screen and (max-width: 850px){
+  .main-flex{
+    flex-wrap: wrap;
+  }
+  .main-sub{
+    flex-basis: 100%!important;
 
+  }
+  #unique{
+    padding-bottom: 35px;
+  }
+}
+.main-sub{
+  flex-basis: 50%;
+}
 .vision-pic4-box {
-  width: 500px !important;
-  height: 300px !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .vision-pic4-box > img {
   width: 100% !important;
-  height: 300px !important;
+  height: auto !important;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-
+#unique{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .vision-border-top {
   border-top: 1px solid #d8d8de;
   padding: 35px 0px !important;
@@ -778,6 +807,9 @@
   .vision-sub-flex {
     flex-wrap: wrap;
   }
+  .vision-box-margin {
+    margin: 25px 15px;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -1209,6 +1241,7 @@
 
 .road-text-down {
   text-align: center;
+  padding-top: 15px;
 }
 
 .icon-text-box {
@@ -1281,6 +1314,7 @@
 
 .road-center {
   text-align: center;
+  padding-top: 15px;
 }
 
 .driver-main-margin {
@@ -1320,7 +1354,10 @@
    width: 100%;
 }
 .anchor.d-flex a{
-  margin: 10px 20px;
+  margin: 10px 5px;
+}
+.anchor.d-flex{
+  margin-left: 15px;
 }
 
 
@@ -1333,6 +1370,8 @@
   }
   .content h2{
     text-align: center;
+    margin-left: 0px!important;
+    padding: 10px;
   }
   .content{
     padding: 100px 0px;
@@ -1342,6 +1381,7 @@
   .anchor.d-flex{
     flex-wrap: wrap;
   }
+  
 }
 
 .content h2{
@@ -1364,4 +1404,11 @@
   margin: 25px 0px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+/*Social Icons footer*/
+.social-icon .icon-2{
+  margin: 0px 10px;
+  color: #00acee;
+}
+.social-icon .icon{
+  color: #4267B2;
+}
