@@ -15,7 +15,7 @@ const BusinessPage = () => {
     },
   ];
   return (
-    <Box className="">
+    <Box className="business-main">
       <Box>
         <Typography className="global-font-family global-main-heading center-contact-us">
           Business

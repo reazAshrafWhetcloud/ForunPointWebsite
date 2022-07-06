@@ -15,7 +15,7 @@ const InvestorRelationPage = () => {
     },
   ];
   return (
-    <Box>
+    <Box className='investor-main'>
       <Box>
         <Typography className="global-font-family global-main-heading center-contact-us">
           Investors

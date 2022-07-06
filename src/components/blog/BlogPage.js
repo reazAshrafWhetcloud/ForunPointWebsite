@@ -49,15 +49,15 @@ const BlogPage = () => {
       <Box className="blog-img-box">
         <img src="./images/blog/blog-main-pic.png" alt="blog main pic" />
       </Box>
-      <Box className="icons-main-box">
+      <Box className="blog-box">
         {iconState.map((val, ind) => {
           return (
-            <Box className="icons-box" key={ind}>
+            <Box className="icons-box-blog" key={ind}>
               <Box className="icons-img-box-service">
                 <img src={val.icon} alt={`blog icons${ind}`} />
               </Box>
               <Box>
-                <Typography className="typo-icons typo-icons-s global-font-family">
+                <Typography className="typo-icons typo-icons-s global-font-family blog-text">
                   {val.text}
                 </Typography>
               </Box>

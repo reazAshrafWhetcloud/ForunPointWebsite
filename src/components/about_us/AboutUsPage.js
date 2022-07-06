@@ -14,7 +14,7 @@ const AboutUsPage = () => {
     },
   ];
   return (
-    <Box className="">
+    <Box className="about-main">
       <Typography className="global-font-family global-main-heading center-contact-us">
         About us
       </Typography>
@@ -100,7 +100,7 @@ const AboutUsPage = () => {
           </Box>
         </Box>
       </Box>
-      <Box className="about-flex ">
+      <Box className="about-flex " id="last-section">
         <Box className="about-two-box ">
           <Typography
             style={{ fontWeight: "bold", fontSize: "20px" }}

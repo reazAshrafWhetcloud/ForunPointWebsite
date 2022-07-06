@@ -663,7 +663,7 @@
   width: 190px;
   text-align: center !important;
   border-radius: 2px;
-  border: 1px solid;
+  
 }
 
 .icons-img-box-service > img {
@@ -944,9 +944,11 @@
 .about-flex {
   display: flex;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: 30px 0;
 }
-
+#last-section{
+  padding: 50px 0px;
+}
 .reverse-flex {
   flex-direction: row-reverse !important;
 }
@@ -973,6 +975,9 @@
   max-height: 400px;
   margin: 5px 0;
   overflow: hidden !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 30px;
+
 }
 
 .business-img-box > img {
@@ -1015,6 +1020,8 @@
   max-height: 400px;
   margin: 5px 0;
   overflow: hidden !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 30px;
 }
 
 .investor-img-box > img:hover {
@@ -1039,6 +1046,8 @@
   max-height: 400px;
   margin: 5px 0;
   overflow: hidden !important;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .services-img-box > img:hover {
@@ -1047,6 +1056,7 @@
   transform: scale(1.2);
   transition: transform 0.3s; /* Animation */
   cursor: pointer;
+  
 }
 
 .services-img-box > img {
@@ -1070,11 +1080,7 @@
   width: unset !important;
 }
 
-/*.icon-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}*/
+
 
 @media screen and (min-width: 1600px) {
   .delivery-image {
@@ -1112,6 +1118,9 @@
   .vision-img-box-driver {
     margin-top: 15px;
   }
+  .driver-images {
+    flex-wrap: wrap;
+  }
 }
 
 .li-c {
@@ -1129,6 +1138,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
 }
 
 .typo-crumb {
@@ -1151,7 +1161,7 @@
 .typo-services-num {
   font-size: 28px !important;
   font-weight: bold !important;
-  color: #fc3e3f;
+  color: #55A6FE;
 }
 
 .nav-link-color {
@@ -1291,7 +1301,7 @@
 
 .error-text {
   font-size: 12px !important;
-  color: red !important;
+  color: #1fa5ff !important;
 }
 
 .check-label {
@@ -1304,14 +1314,6 @@
   flex-direction: row-reverse !important;
 }
 
-/*.typo-c-box {
-  margin-top: 15px;
-}*/
-
-/*.margin-vertical {
-  margin: 30px 2% 0 2%;
-}*/
-
 .road-center {
   text-align: center;
   padding-top: 15px;
@@ -1321,9 +1323,6 @@
   margin: 0 4%;
 }
 
-/*.home-img-main-box {
-  width: 700px;
-}*/
 
 #root {
   display: flex;
@@ -1411,4 +1410,58 @@
 }
 .social-icon .icon{
   color: #4267B2;
+}
+/*About us page*/
+.about-main{
+  width: 80%!important;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+/*Services main*/
+.services-main{
+  padding-top: 50px;
+}
+/*Business-main*/
+.business-main{
+  padding-top: 50px;
+}
+/*Investor main*/
+.investor-main{
+  padding-top: 50px;
+}
+/*blog page boxes*/
+.blog-box{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+@media screen and (max-width: 1340px){
+  .blog-box{
+    flex-wrap: wrap;
+  }
+} 
+/*Blog*/
+.icons-box-blog{
+  
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 15px 12px;
+
+}
+.blog-text{
+  padding-top: 20px;
+}
+/*FAQ*/
+#accordion{
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 15px 12px;
+}
+.card-accordian{
+  margin: 30px 0px;
+  cursor: pointer;
+}
+.accor-text{
+  color: black;
 }

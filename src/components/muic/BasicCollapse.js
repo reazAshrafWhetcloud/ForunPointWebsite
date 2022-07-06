@@ -63,11 +63,11 @@ const BasicCollapse = () => {
     <div id="accordion" className="collapse-b">
       {CollapseData.map((val, ind) => {
         return (
-          <div className="card" key={ind}>
+          <div className="card-accordian" key={ind}>
             <div className="card-header" id="headingTwo">
-              <h5 className="mb-0">
+              <h5 className="mb-0" >
                 <div
-                  className="global-font-family global-text btn-link "
+                  className="global-font-family global-text btn-link accor-text"
                   data-toggle="collapse"
                   data-target={`#${ind}`}
                   aria-expanded="false"
