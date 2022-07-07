@@ -1465,3 +1465,13 @@
 .accor-text{
   color: black;
 }
+.img-response {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 720px){
+  .forunContainerResponsive{
+    flex-direction: column;
+  }
+  
+}

@@ -15,7 +15,7 @@ const Footer = () => {
       <Box className="box-footer">
         <Box>
           <Box onClick={goto} className="footer-logo">
-            <img src="./images/webLogo-01.png" alt="Forun Point logo" />
+            <img src="./images/web icon-01.png" alt="Forun Point logo" />
           </Box>
           <Box className="address-box mr-bottom">
             
@@ -188,7 +188,7 @@ const Footer = () => {
             @ 2022 ForunPoint. All Right Reserved
           </Typography>
           <Typography className="global-text global-font-family">
-            Powered By <a href="https://devsarc.com/">DevsARC</a>
+            Developed By <a href="https://whetcloud.com/" target="_blank">WhetCloud</a>
           </Typography>
         </Box>
 

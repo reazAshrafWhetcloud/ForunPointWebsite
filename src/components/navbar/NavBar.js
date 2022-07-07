@@ -25,7 +25,11 @@ const NavBar = () => {
     <>
       <Box className={classes.navbarU}>
         <Box onClick={goto} className="navbar-logo">
-          <img width='200' src="./images/webLogo-01.png" alt="Forun Point logo" />
+          <img
+            width="200"
+            src="./images/web icon-01.png"
+            alt="Forun Point logo"
+          />
         </Box>
         <Box className="nav-btn-flex">
           <Box className="nav-btn global-text global-font-family font-bold">
@@ -71,9 +75,7 @@ const NavBar = () => {
           <Box className="nav-btn global-text global-font-family font-bold">
             <Link
               className={
-                pathname.includes("/investor")
-                  ? "link-color"
-                  : "nav-link-color"
+                pathname.includes("/investor") ? "link-color" : "nav-link-color"
               }
               to="/investor"
             >

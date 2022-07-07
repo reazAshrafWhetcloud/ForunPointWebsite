@@ -10,7 +10,7 @@ const NavbarO = () => {
   return (
     <Box className="navbar-O">
       <Box onClick={goto} className="navbar-logo">
-        <img width="250" src="./images/logo.svg" alt="Forun Point logo" />
+        <img width="250" src="./images/web icon-01.png" alt="Forun Point logo" />
       </Box>
       <Box className="menu-icon">
         <DropDown />

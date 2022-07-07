@@ -4,26 +4,19 @@ import { Box } from "@mui/system";
 const Vision = () => {
   return (
     <Box className="vision-bg">
-      <Box className="vision-sub-flex vision-border-top">
-        <Box className="vision-sub-flex vision-box-margin">
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/picture1.png"
-              alt="vision pic-1"
-            />
-          </Box>
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/picture2.png"
-              alt="vision pic-2"
-            />
-          </Box>
+      <Box className="vision-sub-flex vision-border-top forunContainerResponsive">
+        <Box
+          className="vision-sub-flex vision-box-margin"
+          textAlign="center"
+          flex="1"
+        >
+          <img
+            src="./images/app_screen/mobile 2.png"
+            alt="vision pic-2"
+            className="img-response"
+          />
         </Box>
-        <Box className="vision-box-margin">
+        <Box className="vision-box-margin" flex="1">
           <Typography className="typo-vision global-large-heading global-font-family">
             Our vision with easy-to-use technology
           </Typography>
@@ -41,26 +34,19 @@ const Vision = () => {
           </Box>
         </Box>
       </Box>
-      <Box className="vision-sub-flex vision-border-top">
-        <Box className="vision-sub-flex vision-box-margin">
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/app_screen/driver-screen1.png"
-              alt="driver mob screen-1"
-            />
-          </Box>
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/app_screen/driver-screen2.png"
-              alt="driver mob screen-2"
-            />
-          </Box>
+      <Box className="vision-sub-flex vision-border-top forunContainerResponsive">
+        <Box
+          className="vision-sub-flex vision-box-margin"
+          textAlign="center"
+          flex="1"
+        >
+          <img
+            src="./images/app_screen/driver app mobile-01.png"
+            alt="vision pic-2"
+            className="img-response"
+          />
         </Box>
-        <Box className="vision-box-margin">
+        <Box className="vision-box-margin" flex="1">
           <Typography className="typo-vision global-large-heading global-font-family">
             Drivers, download your app here
           </Typography>
@@ -97,8 +83,8 @@ const Vision = () => {
         </Box>
       </Box>
 
-      <Box className="vision-sub-flex vision-border-top">
-        <Box className="vision-box-margin">
+      <Box className="vision-sub-flex vision-border-top forunContainerResponsive">
+        <Box className="vision-box-margin" flex="1">
           <Typography className="typo-vision global-large-heading global-font-family">
             Clients, download your app here
           </Typography>
@@ -133,23 +119,16 @@ const Vision = () => {
             </Box>
           </Box>
         </Box>
-        <Box className="vision-sub-flex vision-box-margin">
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/app_screen/user-screen1.png"
-              alt="client mob screen-1"
-            />
-          </Box>
-          <Box className="vision-img-box">
-            <img
-              width="250px"
-              height="450"
-              src="./images/app_screen/user-screen2.png"
-              alt="client mob screen-2"
-            />
-          </Box>
+        <Box
+          className="vision-sub-flex vision-box-margin"
+          textAlign="center"
+          flex="1"
+        >
+          <img
+            src="./images/app_screen/mobile 3-01.png"
+            alt="vision pic-2"
+            className="img-response"
+          />
         </Box>
       </Box>
     </Box>
