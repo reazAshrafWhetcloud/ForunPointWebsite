@@ -188,7 +188,7 @@ const Footer = () => {
             @ 2022 ForunPoint. All Right Reserved
           </Typography>
           <Typography className="global-text global-font-family">
-            Developed By <a href="https://whetcloud.com/" target="_blank">WhetCloud</a>
+            Powered By <a href="https://whetcloud.com/" target="_blank">WhetCloud</a>
           </Typography>
         </Box>
 
