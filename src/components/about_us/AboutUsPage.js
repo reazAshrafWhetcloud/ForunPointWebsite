@@ -85,7 +85,7 @@ const AboutUsPage = () => {
             business. Unfortunately, many closed their doors for good due to
             measures to keep us safe. I realized we need a way that people can
             continue to live life without interruption and that's where our
-            mobile app come in.
+            mobile app comes in.
           </Typography>
           <Typography
             className="global-font-family"
