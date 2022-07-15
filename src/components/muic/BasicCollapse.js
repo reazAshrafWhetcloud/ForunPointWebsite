@@ -6,7 +6,6 @@ const BasicCollapse = () => {
   const { apiUrl, faqsEndPoint } = CONSTANTS;
   const [CollapseData, setCollapseData] = useState([]);
   useEffect(() => {
-    console.log("FAQS INITIALIZED!");
     axios
       .get(apiUrl + faqsEndPoint)
       .then(function (response) {
@@ -19,7 +18,6 @@ const BasicCollapse = () => {
           };
         });
         setCollapseData(_.sortBy(faqs, ["index"]));
-        console.log(response);
       })
       .catch(function (error) {
         // handle error
