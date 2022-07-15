@@ -1,10 +1,10 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { useNavigate } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
 const Footer = () => {
   const navigate = useNavigate();
   function goto() {
@@ -18,15 +18,14 @@ const Footer = () => {
             <img src="./images/web icon-01.png" alt="Forun Point logo" />
           </Box>
           <Box className="address-box mr-bottom">
-            
-            <MailOutlineIcon/>
+            <MailOutlineIcon />
             <Typography className="footer-address  text-color global-font-family">
               info@forunpoint.com
             </Typography>
           </Box>
           <Box className="social-icon">
-            <FacebookIcon className="icon"/>
-            <TwitterIcon className="icon-2"/>
+            <FacebookIcon className="icon" />
+            <TwitterIcon className="icon-2" />
           </Box>
         </Box>
         <Box className="footer-ul-flex">
@@ -114,7 +113,10 @@ const Footer = () => {
         </Box>
         <Box className="footer-app">
           <Box>
-            <Typography className="text-color global-text global-font-family mb-3 ms-1 mt-2" style={{fontWeight:'700',fontSize:'16px'}}>
+            <Typography
+              className="text-color global-text global-font-family mb-3 ms-1 mt-2"
+              style={{ fontWeight: "700", fontSize: "16px" }}
+            >
               Driver App
             </Typography>
             <Box className="footer-download-box mb-4">
@@ -147,7 +149,10 @@ const Footer = () => {
             </Box>
           </Box>
           <Box>
-            <Typography className="text-color global-text global-font-family mb-3 ms-1 mt-2 " style={{fontWeight:'700',fontSize:'16px'}}>
+            <Typography
+              className="text-color global-text global-font-family mb-3 ms-1 mt-2 "
+              style={{ fontWeight: "700", fontSize: "16px" }}
+            >
               User App
             </Typography>
             <Box className="footer-download-box mb-4">
@@ -181,33 +186,36 @@ const Footer = () => {
           </Box>
         </Box>
       </Box>
-      
+
       <Box className="footer-red">
         <Box>
           <Typography className="global-text global-font-family">
             @ 2022 ForunPoint. All Right Reserved
           </Typography>
           <Typography className="global-text global-font-family">
-            Powered By <a href="https://whetcloud.com/" target="_blank">WhetCloud</a>
+            Powered By{" "}
+            <a href="https://whetcloud.com/" target="_blank" rel="noreferrer">
+              WhetCloud
+            </a>
           </Typography>
         </Box>
 
         <Box className="footer-bottom">
-        <Box>
-          <Typography className="text-color global-text global-font-family">
-            <Link className="li-c-w" to="/privacy-policy" >
-              Privacy
-            </Link>
-          </Typography>
+          <Box>
+            <Typography className="text-color global-text global-font-family">
+              <Link className="li-c-w" to="/privacy-policy">
+                Privacy
+              </Link>
+            </Typography>
+          </Box>
+          <Box>
+            <Typography className="text-color global-text global-font-family">
+              <Link className="li-c-w" to="/term-and-condition">
+                Terms and Condition
+              </Link>
+            </Typography>
+          </Box>
         </Box>
-        <Box>
-          <Typography className="text-color global-text global-font-family">
-            <Link className="li-c-w" to="/term-and-condition" >
-              Terms and Condition
-            </Link>
-          </Typography>
-        </Box>
-      </Box>
       </Box>
     </Box>
   );
